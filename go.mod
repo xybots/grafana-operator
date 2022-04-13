@@ -3,17 +3,24 @@ module github.com/integr8ly/grafana-operator/v3
 go 1.13
 
 require (
+	cloud.google.com/go v0.99.0 // indirect
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/ghodss/yaml v1.0.0
-	github.com/go-logr/logr v0.1.0
+	github.com/go-logr/logr v1.2.0
 	github.com/google/go-jsonnet v0.16.0
+	github.com/google/uuid v1.2.0 // indirect
 	github.com/openshift/api v3.9.0+incompatible
-	github.com/operator-framework/operator-sdk v0.18.2
 	github.com/pkg/errors v0.9.1
-	k8s.io/api v0.18.2
-	k8s.io/apimachinery v0.18.2
+	github.com/prometheus/client_golang v1.12.1 // indirect
+	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f // indirect
+	golang.org/x/sys v0.0.0-20220224120231-95c6836cb0e7 // indirect
+	golang.org/x/tools v0.1.9 // indirect
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
+	k8s.io/api v0.23.1
+	k8s.io/apiextensions-apiserver v0.23.1 // indirect
+	k8s.io/apimachinery v0.23.1
 	k8s.io/client-go v12.0.0+incompatible
-	sigs.k8s.io/controller-runtime v0.6.0
+	sigs.k8s.io/controller-runtime v0.11.0
 )
 
 replace (
